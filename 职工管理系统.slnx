@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="职工管理系统/职工管理系统.vcxproj" Id="3c6902b8-917f-4fa9-8912-4f20b28eb709" />
+</Solution>
