@@ -10,7 +10,6 @@ workermanager::workermanager()
 
 	if (!ifs.is_open())
 	{
-		//cout << "文件不存在！" << endl;
 		//初始化属性
 		this->m_EmpNum = 0;
 		this->m_Emparray = NULL;
@@ -27,7 +26,6 @@ workermanager::workermanager()
 	if (ifs.eof())
 	{
 		//文件为空
-		//cout << "文件为空！" << endl;
 		//初始化属性
 		this->m_EmpNum = 0;
 		this->m_Emparray = NULL;
@@ -40,7 +38,6 @@ workermanager::workermanager()
 
 	//3、文件存在，且有数据
 	int num = this->get_empnum();
-	//cout << "职工人数为：" << num << endl;
 	this->m_EmpNum = num; 
 	this->m_Emparray = new worker * [num];
 	this->init_emp();
